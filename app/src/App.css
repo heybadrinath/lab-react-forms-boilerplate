@@ -1,0 +1,49 @@
+.parent{
+  margin: auto;
+  width: 100%;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: wheat;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+label,input{
+  display: block;
+  text-align: center;
+}
+
+input{
+  border: 0px ;
+  margin: 5px 0px;
+  border-radius: 10px;
+  height: 30px;
+  font-family: monospace;
+}
+
+label{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+
+.btn{
+  background-color: greenyellow;
+  font-size: large;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: rebeccapurple;
+}
+
+.btn:hover{
+  background-color: rgb(107, 175, 4);
+  scale: 1.1;
+  transition: 0.3s ease-in;
+  color: black;
+}
